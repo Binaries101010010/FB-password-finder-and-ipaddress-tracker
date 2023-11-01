@@ -1,0 +1,11 @@
+# Tool Name :- IP-Tracer
+# Author :- Binaries1010110110
+# Date :- 10/10/2018
+# Powered By :- Binaries1010110110 Hacker
+if [ -d /data/data/com.termux/files/usr/share ];then
+  cd /data/data/com.termux/files/usr/share/IP-Tracer
+  exec bash trace $@
+elif [ -d /usr/share ];then
+  cd /usr/share/IP-Tracer
+  exec bash trace $@
+fi
